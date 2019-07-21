@@ -1,7 +1,7 @@
 # finance-manager
 
 A python script aimed at making managing finances in an organized manner simple. The script parses gmail inboxes
-using the gmail API to find deposit alerts and then generates a pie chart showing your personalized budget breakdown 
+using the gmail API to find deposit alerts and then generates a pie chart showing your personalized budget breakdown
 which is saved to a desired location for future use.
 
 ## Usage
@@ -17,9 +17,6 @@ Update the following variables to match your account/preferences:
 # email info
 EMAIL_ADR = 'YOUR EMAIL HERE'
 EMAIL_PWD = 'YOUR PASSWORD HERE'
-
-# default time period set to 2 weeks
-days_to_check = 14
 
 # categories can be changed/added/deleted as long as values add up to 1.0.
 # for each category added/deleted, you must also add/delete a color
