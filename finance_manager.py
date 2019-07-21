@@ -23,7 +23,7 @@ mail.login(EMAIL_ADR, EMAIL_PWD)
 mail.select('inbox')
 
 # default time period set to 2 weeks
-days_to_check = 14
+days_to_check = int(input('How many days back would you like to check for deposits? '))
 stop_date = (datetime.date.today() - datetime.timedelta(days_to_check)).strftime("%d-%b-%Y")
 
 # selecting only emails from the Primary inbox from current date through the stop date
