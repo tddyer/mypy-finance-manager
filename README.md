@@ -2,7 +2,7 @@
 
 A python script aimed at making the process of managing finances simple. The script parses gmail inboxes
 using Python's gmail API to find deposit alerts and then generates a pie chart showing your personalized budget breakdown
-which is saved to a desired location for future use.
+which is saved to a desired file location for future reference.
 
 ## Usage
 
