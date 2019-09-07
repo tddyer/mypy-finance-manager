@@ -27,13 +27,5 @@ savings_categories = {'College Funds': .75, 'Savings': .2, 'Spending': .05}
 plt.savefig("ENTER DESIRED FILE LOCATION" + datetime.date.today().strftime("%b%d") + ".pdf", bbox_inches="tight"
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-Example changes:
-* Add functionality for other email providers
-* Add functionality for other banks/finance apps (Paypal, CashApp, etc)
-* Update README.md
-* Code clean up/review
-
 ## License
 [GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/)
