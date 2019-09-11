@@ -14,19 +14,19 @@ which is saved to a desired file location for future reference.
 
   - Update the following variables to match your account/preferences:
 
-```python
-# email info
-EMAIL_ADR = 'YOUR EMAIL HERE'
-EMAIL_PWD = 'YOUR PASSWORD HERE'
+  ```python
+  # email info
+  EMAIL_ADR = 'YOUR EMAIL HERE'
+  EMAIL_PWD = 'YOUR PASSWORD HERE'
 
-# categories can be changed/added/deleted as long as values add up to 1.0.
-# for each category added/deleted, you must also add/delete a color
-# for the pie chart
-savings_categories = {'College Funds': .75, 'Savings': .2, 'Spending': .05}
+  # categories can be changed/added/deleted as long as values add up to 1.0.
+  # for each category added/deleted, you must also add/delete a color
+  # for the pie chart
+  savings_categories = {'College Funds': .75, 'Savings': .2, 'Spending': .05}
 
-# saving pie chart to entered filepath as pdf
-plt.savefig("ENTER DESIRED FILE LOCATION" + datetime.date.today().strftime("%b%d") + ".pdf", bbox_inches="tight"
-```
+  # saving pie chart to entered filepath as pdf
+  plt.savefig("ENTER DESIRED FILE LOCATION" + datetime.date.today().strftime("%b%d") + ".pdf", bbox_inches="tight"
+  ```
 
 ## License
 [GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/)
