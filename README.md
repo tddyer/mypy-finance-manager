@@ -24,7 +24,7 @@ which is saved to a desired file location for future reference.
   # for the pie chart
   savings_categories = {'College Funds': .75, 'Savings': .2, 'Spending': .05}
 
-  # saving pie chart to entered filepath as pdf
+  # saving pie chart to entered filepath as pdf named as the current date (Ex: Jul05.pdf)
   plt.savefig("ENTER DESIRED FILE LOCATION" + datetime.date.today().strftime("%b%d") + ".pdf", bbox_inches="tight"
   ```
 
