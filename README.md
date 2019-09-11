@@ -5,6 +5,8 @@ using Python's gmail API to find deposit alerts and then generates a pie chart s
 which is saved to a desired file location for future reference.
 
 ## Setup
+  - You will need to allow access to your google account for less secure apps so the parser can have access to your gmail inbox
+    - Navigate to Google account settings (not gmail settings) -> Security -> less secure apps access (shown below)
 ![less_secure_apps](https://user-images.githubusercontent.com/39466067/64708301-049ce300-d47a-11e9-9d99-4f9ec244e142.png)
 
 ## Usage
