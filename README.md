@@ -12,14 +12,7 @@ which is saved to a desired file location for future reference.
   - Within your PNC bank account, turn on deposit email notifications
     - Navigate to Alerts -> Alerts Profile -> turn on "Direct deposit greater than $1.00" email notifications
 
-## Usage
-
-In your google account privacy settings, you will need to allow access for less secure apps in order for the
-script to have access to your email account inbox.
-
-You will also need to turn on deposit email notifications in your PNC account.
-
-Update the following variables to match your account/preferences:
+  - Update the following variables to match your account/preferences:
 
 ```python
 # email info
