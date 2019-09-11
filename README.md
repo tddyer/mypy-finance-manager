@@ -28,6 +28,7 @@ which is saved to a desired file location for future reference.
   colors = ['#ff9999', '#66b3ff', '#99ff99']
   
   # saving pie chart to entered filepath as pdf named as the current date (Ex: Jul05.pdf)
+  # example file location: 'home/your/directory/'
   plt.savefig("ENTER DESIRED FILE LOCATION" + datetime.date.today().strftime("%b%d") + ".pdf", bbox_inches="tight"
   ```
 
