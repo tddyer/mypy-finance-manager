@@ -32,7 +32,7 @@ which is saved to a desired file location for future reference.
   plt.savefig("ENTER DESIRED FILE LOCATION" + datetime.date.today().strftime("%b%d") + ".pdf", bbox_inches="tight"
   ```
 ## Example Visualization
-![example](https://user-images.githubusercontent.com/39466067/65647237-acaac400-dfc3-11e9-9dd7-273cc8339a83.jpg)
+ ![example](https://user-images.githubusercontent.com/39466067/65647237-acaac400-dfc3-11e9-9dd7-273cc8339a83.jpg)
 
 ## License
 [GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/)
