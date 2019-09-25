@@ -31,6 +31,9 @@ which is saved to a desired file location for future reference.
   # example file location: 'home/your/directory/'
   plt.savefig("ENTER DESIRED FILE LOCATION" + datetime.date.today().strftime("%b%d") + ".pdf", bbox_inches="tight"
   ```
+## Usage
+  - After updating the variables specified above, simply run the python script, enter the desired amount of days you would like to parse, and wait for your visualization to pop up! You will then be able to access this .pdf of your vizualization from the file location you specified above.
+  
 ## Example Visualization
  ![example](https://user-images.githubusercontent.com/39466067/65647237-acaac400-dfc3-11e9-9dd7-273cc8339a83.jpg)
 
