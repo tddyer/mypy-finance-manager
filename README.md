@@ -32,7 +32,7 @@ which is saved to a desired file location for future reference.
   plt.savefig("ENTER DESIRED FILE LOCATION" + datetime.date.today().strftime("%b%d") + ".pdf", bbox_inches="tight"
   ```
 ## Example Visualization
-[Sep18.pdf](https://github.com/tddyer/Mypy-Finance-Manager/files/3655201/Sep18.pdf)
+
 
 ## License
 [GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/)
