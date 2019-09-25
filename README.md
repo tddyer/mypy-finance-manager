@@ -1,4 +1,4 @@
-# finance-manager
+# My-py-Finance-Manager
 
 A Python script aimed at making the process of managing finances simple. The script parses gmail inboxes
 using Python's gmail API to find deposit alerts and then generates a pie chart showing your personalized budget breakdown
